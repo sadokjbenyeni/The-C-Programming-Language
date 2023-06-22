@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #define MAX_LENGTH 100
 
 char* reverse(char* s, int len);
