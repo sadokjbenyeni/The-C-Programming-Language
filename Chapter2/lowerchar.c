@@ -2,10 +2,7 @@
 
 int lower_char(int c)
 {
-    if(c >= 'A' && c <= 'Z')
-        return c + 'a' - 'A';
-    else 
-        return 0;
+    return (c >= 'A' && c <= 'Z') ? c + 'a' - 'A' : 0;
 }
 
 int main(void)
